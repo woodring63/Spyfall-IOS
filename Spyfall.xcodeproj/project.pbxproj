@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1BDBD1E1DE5113B00A9F55E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD1D1DE5113B00A9F55E /* AppDelegate.swift */; };
+		E1BDBD201DE5113B00A9F55E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD1F1DE5113B00A9F55E /* ViewController.swift */; };
+		E1BDBD231DE5113B00A9F55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BDBD211DE5113B00A9F55E /* Main.storyboard */; };
+		E1BDBD251DE5113B00A9F55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BDBD241DE5113B00A9F55E /* Assets.xcassets */; };
+		E1BDBD281DE5113B00A9F55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BDBD261DE5113B00A9F55E /* LaunchScreen.storyboard */; };
+		E1BDBD331DE5113B00A9F55E /* SpyfallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD321DE5113B00A9F55E /* SpyfallTests.swift */; };
+		E1BDBD3E1DE5113B00A9F55E /* SpyfallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD3D1DE5113B00A9F55E /* SpyfallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1BDBD2F1DE5113B00A9F55E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BDBD121DE5113A00A9F55E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BDBD191DE5113A00A9F55E;
+			remoteInfo = Spyfall;
+		};
+		E1BDBD3A1DE5113B00A9F55E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BDBD121DE5113A00A9F55E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BDBD191DE5113A00A9F55E;
+			remoteInfo = Spyfall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1BDBD1A1DE5113B00A9F55E /* Spyfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spyfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BDBD1D1DE5113B00A9F55E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1BDBD1F1DE5113B00A9F55E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1BDBD221DE5113B00A9F55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1BDBD241DE5113B00A9F55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BDBD271DE5113B00A9F55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1BDBD291DE5113B00A9F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BDBD2E1DE5113B00A9F55E /* SpyfallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyfallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BDBD321DE5113B00A9F55E /* SpyfallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyfallTests.swift; sourceTree = "<group>"; };
+		E1BDBD341DE5113B00A9F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BDBD391DE5113B00A9F55E /* SpyfallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyfallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BDBD3D1DE5113B00A9F55E /* SpyfallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyfallUITests.swift; sourceTree = "<group>"; };
+		E1BDBD3F1DE5113B00A9F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1BDBD171DE5113A00A9F55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDBD2B1DE5113B00A9F55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDBD361DE5113B00A9F55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1BDBD111DE5113A00A9F55E = {
+			isa = PBXGroup;
+			children = (
+				E1BDBD1C1DE5113B00A9F55E /* Spyfall */,
+				E1BDBD311DE5113B00A9F55E /* SpyfallTests */,
+				E1BDBD3C1DE5113B00A9F55E /* SpyfallUITests */,
+				E1BDBD1B1DE5113B00A9F55E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BDBD1B1DE5113B00A9F55E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDBD1A1DE5113B00A9F55E /* Spyfall.app */,
+				E1BDBD2E1DE5113B00A9F55E /* SpyfallTests.xctest */,
+				E1BDBD391DE5113B00A9F55E /* SpyfallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BDBD1C1DE5113B00A9F55E /* Spyfall */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDBD1D1DE5113B00A9F55E /* AppDelegate.swift */,
+				E1BDBD1F1DE5113B00A9F55E /* ViewController.swift */,
+				E1BDBD211DE5113B00A9F55E /* Main.storyboard */,
+				E1BDBD241DE5113B00A9F55E /* Assets.xcassets */,
+				E1BDBD261DE5113B00A9F55E /* LaunchScreen.storyboard */,
+				E1BDBD291DE5113B00A9F55E /* Info.plist */,
+			);
+			path = Spyfall;
+			sourceTree = "<group>";
+		};
+		E1BDBD311DE5113B00A9F55E /* SpyfallTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDBD321DE5113B00A9F55E /* SpyfallTests.swift */,
+				E1BDBD341DE5113B00A9F55E /* Info.plist */,
+			);
+			path = SpyfallTests;
+			sourceTree = "<group>";
+		};
+		E1BDBD3C1DE5113B00A9F55E /* SpyfallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDBD3D1DE5113B00A9F55E /* SpyfallUITests.swift */,
+				E1BDBD3F1DE5113B00A9F55E /* Info.plist */,
+			);
+			path = SpyfallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1BDBD191DE5113A00A9F55E /* Spyfall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BDBD421DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "Spyfall" */;
+			buildPhases = (
+				E1BDBD161DE5113A00A9F55E /* Sources */,
+				E1BDBD171DE5113A00A9F55E /* Frameworks */,
+				E1BDBD181DE5113A00A9F55E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spyfall;
+			productName = Spyfall;
+			productReference = E1BDBD1A1DE5113B00A9F55E /* Spyfall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1BDBD2D1DE5113B00A9F55E /* SpyfallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BDBD451DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "SpyfallTests" */;
+			buildPhases = (
+				E1BDBD2A1DE5113B00A9F55E /* Sources */,
+				E1BDBD2B1DE5113B00A9F55E /* Frameworks */,
+				E1BDBD2C1DE5113B00A9F55E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BDBD301DE5113B00A9F55E /* PBXTargetDependency */,
+			);
+			name = SpyfallTests;
+			productName = SpyfallTests;
+			productReference = E1BDBD2E1DE5113B00A9F55E /* SpyfallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1BDBD381DE5113B00A9F55E /* SpyfallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BDBD481DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "SpyfallUITests" */;
+			buildPhases = (
+				E1BDBD351DE5113B00A9F55E /* Sources */,
+				E1BDBD361DE5113B00A9F55E /* Frameworks */,
+				E1BDBD371DE5113B00A9F55E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BDBD3B1DE5113B00A9F55E /* PBXTargetDependency */,
+			);
+			name = SpyfallUITests;
+			productName = SpyfallUITests;
+			productReference = E1BDBD391DE5113B00A9F55E /* SpyfallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BDBD121DE5113A00A9F55E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Evan Woodring";
+				TargetAttributes = {
+					E1BDBD191DE5113A00A9F55E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E1BDBD2D1DE5113B00A9F55E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1BDBD191DE5113A00A9F55E;
+					};
+					E1BDBD381DE5113B00A9F55E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1BDBD191DE5113A00A9F55E;
+					};
+				};
+			};
+			buildConfigurationList = E1BDBD151DE5113A00A9F55E /* Build configuration list for PBXProject "Spyfall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BDBD111DE5113A00A9F55E;
+			productRefGroup = E1BDBD1B1DE5113B00A9F55E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BDBD191DE5113A00A9F55E /* Spyfall */,
+				E1BDBD2D1DE5113B00A9F55E /* SpyfallTests */,
+				E1BDBD381DE5113B00A9F55E /* SpyfallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1BDBD181DE5113A00A9F55E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BDBD281DE5113B00A9F55E /* LaunchScreen.storyboard in Resources */,
+				E1BDBD251DE5113B00A9F55E /* Assets.xcassets in Resources */,
+				E1BDBD231DE5113B00A9F55E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDBD2C1DE5113B00A9F55E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDBD371DE5113B00A9F55E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1BDBD161DE5113A00A9F55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BDBD201DE5113B00A9F55E /* ViewController.swift in Sources */,
+				E1BDBD1E1DE5113B00A9F55E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDBD2A1DE5113B00A9F55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BDBD331DE5113B00A9F55E /* SpyfallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDBD351DE5113B00A9F55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BDBD3E1DE5113B00A9F55E /* SpyfallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1BDBD301DE5113B00A9F55E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BDBD191DE5113A00A9F55E /* Spyfall */;
+			targetProxy = E1BDBD2F1DE5113B00A9F55E /* PBXContainerItemProxy */;
+		};
+		E1BDBD3B1DE5113B00A9F55E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BDBD191DE5113A00A9F55E /* Spyfall */;
+			targetProxy = E1BDBD3A1DE5113B00A9F55E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1BDBD211DE5113B00A9F55E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BDBD221DE5113B00A9F55E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1BDBD261DE5113B00A9F55E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BDBD271DE5113B00A9F55E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1BDBD401DE5113B00A9F55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1BDBD411DE5113B00A9F55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1BDBD431DE5113B00A9F55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spyfall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.Spyfall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1BDBD441DE5113B00A9F55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spyfall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.Spyfall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E1BDBD461DE5113B00A9F55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpyfallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.SpyfallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spyfall.app/Spyfall";
+			};
+			name = Debug;
+		};
+		E1BDBD471DE5113B00A9F55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpyfallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.SpyfallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spyfall.app/Spyfall";
+			};
+			name = Release;
+		};
+		E1BDBD491DE5113B00A9F55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpyfallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.SpyfallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spyfall;
+			};
+			name = Debug;
+		};
+		E1BDBD4A1DE5113B00A9F55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpyfallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.SpyfallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spyfall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1BDBD151DE5113A00A9F55E /* Build configuration list for PBXProject "Spyfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BDBD401DE5113B00A9F55E /* Debug */,
+				E1BDBD411DE5113B00A9F55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BDBD421DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "Spyfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BDBD431DE5113B00A9F55E /* Debug */,
+				E1BDBD441DE5113B00A9F55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1BDBD451DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "SpyfallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BDBD461DE5113B00A9F55E /* Debug */,
+				E1BDBD471DE5113B00A9F55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1BDBD481DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "SpyfallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BDBD491DE5113B00A9F55E /* Debug */,
+				E1BDBD4A1DE5113B00A9F55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BDBD121DE5113A00A9F55E /* Project object */;
+}
