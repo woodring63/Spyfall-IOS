@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E1BDBD1E1DE5113B00A9F55E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD1D1DE5113B00A9F55E /* AppDelegate.swift */; };
-		E1BDBD201DE5113B00A9F55E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD1F1DE5113B00A9F55E /* ViewController.swift */; };
 		E1BDBD231DE5113B00A9F55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BDBD211DE5113B00A9F55E /* Main.storyboard */; };
 		E1BDBD251DE5113B00A9F55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BDBD241DE5113B00A9F55E /* Assets.xcassets */; };
 		E1BDBD281DE5113B00A9F55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BDBD261DE5113B00A9F55E /* LaunchScreen.storyboard */; };
 		E1BDBD331DE5113B00A9F55E /* SpyfallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD321DE5113B00A9F55E /* SpyfallTests.swift */; };
 		E1BDBD3E1DE5113B00A9F55E /* SpyfallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDBD3D1DE5113B00A9F55E /* SpyfallUITests.swift */; };
+		E1F335281DE51A6F00883D75 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F335271DE51A6F00883D75 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		E1BDBD1A1DE5113B00A9F55E /* Spyfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spyfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BDBD1D1DE5113B00A9F55E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1BDBD1F1DE5113B00A9F55E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1BDBD221DE5113B00A9F55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1BDBD241DE5113B00A9F55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BDBD271DE5113B00A9F55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		E1BDBD391DE5113B00A9F55E /* SpyfallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyfallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BDBD3D1DE5113B00A9F55E /* SpyfallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyfallUITests.swift; sourceTree = "<group>"; };
 		E1BDBD3F1DE5113B00A9F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F335271DE51A6F00883D75 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = ../HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		E1BDBD1C1DE5113B00A9F55E /* Spyfall */ = {
 			isa = PBXGroup;
 			children = (
+				E1F335271DE51A6F00883D75 /* HomeController.swift */,
 				E1BDBD1D1DE5113B00A9F55E /* AppDelegate.swift */,
-				E1BDBD1F1DE5113B00A9F55E /* ViewController.swift */,
 				E1BDBD211DE5113B00A9F55E /* Main.storyboard */,
 				E1BDBD241DE5113B00A9F55E /* Assets.xcassets */,
 				E1BDBD261DE5113B00A9F55E /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BDBD201DE5113B00A9F55E /* ViewController.swift in Sources */,
+				E1F335281DE51A6F00883D75 /* HomeController.swift in Sources */,
 				E1BDBD1E1DE5113B00A9F55E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +505,7 @@
 				E1BDBD441DE5113B00A9F55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BDBD451DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "SpyfallTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				E1BDBD471DE5113B00A9F55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BDBD481DE5113B00A9F55E /* Build configuration list for PBXNativeTarget "SpyfallUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				E1BDBD4A1DE5113B00A9F55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
